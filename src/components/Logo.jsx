@@ -4,7 +4,7 @@ function Logo({ width = '100px' }) {
   return (
     <div>
       <img
-        src="img/logo.png"  // Update this path
+        src="../img/logo.png"  // Update this path
         alt="Company Logo"
         style={{ width: width }}
       />
