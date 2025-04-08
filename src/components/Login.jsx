@@ -34,8 +34,8 @@ function Login() {
     }
 
     return (
-        <div className='flex items-center justify-center w-full'>
-            <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}>
+        <div className='flex items-center justify-center w-full bg-indigo-100'>
+            <div className={`mx-auto w-full max-w-lg bg-rose-50 rounded-xl p-10 border border-black/10`}>
 
                 <div className="mb-2 flex justify-center">
                     <span className="inline-block w-full max-w-[100px]">
@@ -83,7 +83,7 @@ function Login() {
                             })}
                         />
 
-                        <Button type="submit" className="w-full">Sign in</Button>
+                        <Button type="submit" className="w-full bg-rose-500 hover:bg-rose-600 hover:scale-110 transform transition-all">Sign in</Button>
                     </div>
                 </form>
             </div>

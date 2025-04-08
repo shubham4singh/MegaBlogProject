@@ -19,7 +19,7 @@ function Home() {
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
-                            <h1 className="text-2xl font-bold hover:text-gray-500">
+                            <h1 className="text-2xl font-bold hover:text-gray-100">
                                 No Posts to show..
                             </h1>
                         </div>
@@ -30,11 +30,11 @@ function Home() {
     }
 
     return (
-        <div className='w-full py-8'>
+        <div className='w-full py-8 bg-indigo-100'>
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (
-                        <div key={post.$id} className='p-2 w-1/4'>
+                        <div key={post.$id} className='p-2 w-1/4 hover:scale-110 transform transition-all'>
                             <PostCard {...post} />
                         </div>
                     ))}
