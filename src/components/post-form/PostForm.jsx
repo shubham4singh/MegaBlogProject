@@ -82,7 +82,7 @@ export default function PostForm({ post }) {
                 <Input
                     label="Title :"
                     placeholder="Title"
-                    className="mb-4"
+                    className='mb-4'
                     {...register("title", { required: true })}
                 />
 
@@ -126,7 +126,7 @@ export default function PostForm({ post }) {
                     {...register("status", { required: true })}
                 />
 
-                <Button type="submit" bgColor={post ? "bg-rose-500" : "bg-rose-500 hover:bg-rose-400 hover:scale-110 transform transition-all"} className="w-full">
+                <Button type="submit" bgColor={post ? "bg-rose-500" : "bg-rose-300 hover:bg-rose-400 hover:scale-110 transform transition-all py-2 rounded-lg"} className="w-full">
                     {post ? "Update" : "Submit"}
                 </Button>
             </div>

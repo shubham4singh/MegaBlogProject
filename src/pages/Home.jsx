@@ -30,7 +30,7 @@ function Home() {
     }
 
     return (
-        <div className='w-full py-8 bg-indigo-100'>
+        <div className='w-full py-8 bg-neutral-800'>
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (

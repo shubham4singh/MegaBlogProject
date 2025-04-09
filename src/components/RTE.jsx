@@ -10,18 +10,20 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
             {label && <label className='inline-block mb-1 pl-1'>{label}</label>}
 
             <Controller
-                name={name || "content"} 
+                name={name || "content"}
 
                 /* yeh control parent element (jo call krega RTE function ko) dega. */
                 /* control object is from invoking useForm. */
                 control={control}
 
                 /* connects tinyMCE changes with react hook form */
-                render={({ field: { onChange }}) => (
+                render={({ field: { onChange } }) => (
                     <Editor
                         apiKey='fjjpepikj298o66i5zk7ghcqqdu3ubx0umfy7u32j0oxsh4h'
                         initialValue={defaultValue}
                         init={{
+                            skin: "oxide-dark",
+                            content_css: "dark",
                             branding: false, /* tinymce ki branding removed */
                             height: 500,
                             menubar: true,

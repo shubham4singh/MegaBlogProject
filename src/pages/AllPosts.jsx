@@ -18,7 +18,7 @@ function AllPosts() {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <div className='w-full py-8 bg-indigo-100'>
+        <div className='w-full py-8 bg-neutral-950'>
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (

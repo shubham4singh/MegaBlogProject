@@ -4,7 +4,7 @@ import Logo from '../Logo'
 
 function Footer() {
   return (
-    <section className="relative overflow-hidden py-10 bg-indigo-200 border border-t-2 border-t-black">
+    <section className="relative overflow-hidden py-10 bg-neutral-950 border border-t-2 border-t-black">
       <div className="relative z-10 mx-auto max-w-7xl px-4">
         <div className="-m-6 flex flex-wrap">
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
@@ -15,7 +15,7 @@ function Footer() {
               </div>
 
               <div>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-neutral-50">
                   &copy; Copyright 2025. All Rights Reserved by PhartiyalJi.
                 </p>
               </div>
@@ -26,13 +26,13 @@ function Footer() {
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
 
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-neutral-50">
                 Company
               </h3>
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Features
@@ -41,7 +41,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Pricing
@@ -49,7 +49,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Affiliate Program
@@ -57,7 +57,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Press Kit
@@ -68,13 +68,13 @@ function Footer() {
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-neutral-50">
                 Support
               </h3>
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Account
@@ -82,7 +82,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Help
@@ -90,7 +90,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Contact Us
@@ -98,7 +98,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Customer Support
@@ -109,13 +109,13 @@ function Footer() {
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-3/12">
             <div className="h-full">
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-neutral-50">
                 Legals
               </h3>
               <ul>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Terms &amp; Conditions
@@ -123,7 +123,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Privacy Policy
@@ -131,7 +131,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-base font-medium text-gray-900 hover:text-rose-700"
+                    className=" text-base font-medium text-neutral-50 hover:text-rose-400"
                     to="/"
                   >
                     Licensing
