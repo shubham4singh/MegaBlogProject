@@ -35,7 +35,7 @@ export default function Post() {
     };
 
     return post ? (
-        <div className="py-8 bg-indigo-100">
+        <div className="py-8 bg-neutral-800">
             <Container>
                 <div className="w-full flex justify-center mb-4 relative border rounded-xl p-2">
                     <img
